@@ -1,10 +1,10 @@
 /* Nivel 9: hoja de estilos v2. Sin dependencias externas. */
-@font-face{font-family:"Caladea";src:url("fonts/caladea-regular.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:"Caladea";src:url("fonts/caladea-italic.woff") format("woff");font-weight:400;font-style:italic;font-display:swap}
-@font-face{font-family:"Caladea";src:url("fonts/caladea-bold.woff") format("woff");font-weight:700;font-style:normal;font-display:swap}
-@font-face{font-family:"Inter";src:url("fonts/inter-regular.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:"Inter";src:url("fonts/inter-medium.woff") format("woff");font-weight:500;font-style:normal;font-display:swap}
-@font-face{font-family:"Inter";src:url("fonts/inter-semibold.woff") format("woff");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Caladea";src:url("caladea-regular.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Caladea";src:url("caladea-italic.woff") format("woff");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Caladea";src:url("caladea-bold.woff") format("woff");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"Inter";src:url("inter-regular.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Inter";src:url("inter-medium.woff") format("woff");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Inter";src:url("inter-semibold.woff") format("woff");font-weight:600;font-style:normal;font-display:swap}
 
 :root{
   --red:#E8000D;
