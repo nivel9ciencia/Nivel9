@@ -1,10 +1,10 @@
 /* Nivel 9: hoja de estilos v2. Sin dependencias externas. */
-@font-face{font-family:"Caladea";src:url("caladea-regular.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:"Caladea";src:url("caladea-italic.woff") format("woff");font-weight:400;font-style:italic;font-display:swap}
-@font-face{font-family:"Caladea";src:url("caladea-bold.woff") format("woff");font-weight:700;font-style:normal;font-display:swap}
-@font-face{font-family:"Inter";src:url("inter-regular.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
-@font-face{font-family:"Inter";src:url("inter-medium.woff") format("woff");font-weight:500;font-style:normal;font-display:swap}
-@font-face{font-family:"Inter";src:url("inter-semibold.woff") format("woff");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Caladea";src:url("fonts/caladea-regular.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Caladea";src:url("fonts/caladea-italic.woff") format("woff");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Caladea";src:url("fonts/caladea-bold.woff") format("woff");font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:"Inter";src:url("fonts/inter-regular.woff") format("woff");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Inter";src:url("fonts/inter-medium.woff") format("woff");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Inter";src:url("fonts/inter-semibold.woff") format("woff");font-weight:600;font-style:normal;font-display:swap}
 
 :root{
   --red:#E8000D;
@@ -14,6 +14,7 @@
   --muted:#5b5b60;
   --line:#d9d9d6;
   --mist:#f1f1ef;
+  --burg:#580004;
   --mist-2:#e6e6e3;
   --paper:#ffffff;
   --serif:"Caladea","Charter","Bitstream Charter","Sitka Text",Cambria,Georgia,serif;
@@ -351,5 +352,3 @@ a.tile:active{transform:scale(0.985)}
 .hero .wrap>div:first-child{animation:fadeup 520ms var(--ease-out) both}
 @media (prefers-reduced-motion:reduce){.ticker .track{animation:none;flex-wrap:wrap}.eyebrow .dot{animation:none}.hero .wrap>div:first-child{animation:none}}
 @media (max-width:640px){.stats li{border-right:0;margin-right:0;border-bottom:1px solid rgba(255,255,255,.18);padding-bottom:24px;margin-bottom:16px}.stats li:last-child{border-bottom:0}.ticker li{padding:12px 20px}}
-
-:root{padding-block:0}
